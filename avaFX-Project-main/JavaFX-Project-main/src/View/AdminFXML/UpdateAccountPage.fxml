@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="869.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="View.AdminFXML.UpdateAccountPageController">
+   <children>
+      <Label layoutX="103.0" layoutY="35.0" prefHeight="28.0" prefWidth="210.0" text="UpdateAccountPage" textFill="#383560">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="userIdTF" layoutX="55.0" layoutY="149.0" prefHeight="21.0" prefWidth="67.0" text="user ID" />
+      <Label layoutX="55.0" layoutY="220.0" prefHeight="21.0" prefWidth="113.0" text="Account number" />
+      <Label layoutX="55.0" layoutY="285.0" prefHeight="21.0" prefWidth="67.0" text="username" />
+      <Label layoutX="55.0" layoutY="344.0" prefHeight="21.0" prefWidth="67.0" text="currency" />
+      <Label layoutX="55.0" layoutY="408.0" prefHeight="21.0" prefWidth="61.0" text="balance" />
+      <Label layoutX="55.0" layoutY="469.0" prefHeight="21.0" prefWidth="99.0" text="creation Date" />
+      <Button fx:id="updateAccountBtn" layoutX="129.0" layoutY="647.0" mnemonicParsing="false" onAction="#updateAccount" prefHeight="33.0" prefWidth="99.0" style="-fx-background-color: blue; -fx-border-color: blue; -fx-border-radius: 20;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelBtn" layoutX="348.0" layoutY="647.0" mnemonicParsing="false" onAction="#cancelCreation" prefHeight="31.0" prefWidth="91.0" style="-fx-background-color: red; -fx-border-color: red; -fx-border-radius: 20;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField layoutX="255.0" layoutY="144.0" />
+      <TextField fx:id="AccountNumberTF" layoutX="255.0" layoutY="215.0" />
+      <TextField fx:id="usernameTF" layoutX="255.0" layoutY="280.0" />
+      <TextField fx:id="currencyTF" layoutX="255.0" layoutY="339.0" />
+      <TextField fx:id="balanceTF" layoutX="255.0" layoutY="403.0" />
+      <TextField fx:id="creationDateTF" layoutX="249.0" layoutY="464.0" />
+   </children>
+</AnchorPane>
